@@ -1,0 +1,39 @@
+{
+    "author": {
+        "email": "support.eagle@autodesk.com",
+        "name": "Autodesk EAGLE"
+    },
+    "description": {
+        "EN": "CAM job description goes here."
+    },
+    "output_type": "directory",
+    "outputs": [
+        {
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "%N.drd",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Generate drill data",
+                    "type": "excellon"
+                }
+            ]
+        }
+    ],
+    "timestamp": "2017-11-30T16:59:58",
+    "type": "EAGLE CAM job",
+    "units": "metric",
+    "version": "8.6.1"
+}
